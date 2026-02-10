@@ -8,10 +8,11 @@ import { EncapsulationSecond } from './encapsulation-second/encapsulation-second
 import { Parent } from './parent/parent';
 import { Super } from "./super/super";
 import { IfDirectives } from './if-directives/if-directives';
+import { SwitchCaseDirective } from './switch-case-directive/switch-case-directive';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
