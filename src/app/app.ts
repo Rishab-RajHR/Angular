@@ -9,10 +9,11 @@ import { Parent } from './parent/parent';
 import { Super } from "./super/super";
 import { IfDirectives } from './if-directives/if-directives';
 import { SwitchCaseDirective } from './switch-case-directive/switch-case-directive';
+import { ForDirective } from './for-directive/for-directive';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective,ForDirective],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
