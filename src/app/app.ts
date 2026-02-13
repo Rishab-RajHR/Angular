@@ -11,10 +11,11 @@ import { IfDirectives } from './if-directives/if-directives';
 import { SwitchCaseDirective } from './switch-case-directive/switch-case-directive';
 import { ForDirective } from './for-directive/for-directive';
 import { NgClassDirective } from './ng-class-directive/ng-class-directive';
+import { NgStyle } from './ng-style/ng-style';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective,ForDirective,NgClassDirective],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective,ForDirective,NgClassDirective,NgStyle],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
