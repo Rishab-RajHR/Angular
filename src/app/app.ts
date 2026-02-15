@@ -13,10 +13,11 @@ import { ForDirective } from './for-directive/for-directive';
 import { NgClassDirective } from './ng-class-directive/ng-class-directive';
 import { NgStyle } from './ng-style/ng-style';
 import { Interpolation } from './interpolation/interpolation';
+import { ErrorHandlingInterpolation } from './error-handling-interpolation/error-handling-interpolation';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective,ForDirective,NgClassDirective,NgStyle,Interpolation],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives,SwitchCaseDirective,ForDirective,NgClassDirective,NgStyle,Interpolation,ErrorHandlingInterpolation],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
