@@ -1,0 +1,12 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-attribute-binding',
+  imports: [],
+  templateUrl: './attribute-binding.html',
+  styleUrl: './attribute-binding.css',
+})
+export class AttributeBinding {
+    buttonType: string = 'submit';
+    inputValue: string = 'Enter your name';
+}
