@@ -19,10 +19,11 @@ import { StyleBinding } from "./style-binding/style-binding";
 import { ClassBinding } from "./class-binding/class-binding";
 import { PropertyBinding } from "./property-binding/property-binding";
 import { EventBinding } from "./event-binding/event-binding";
+import { TwoWayBinding } from "./two-way-binding/two-way-binding";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding, TwoWayBinding],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
