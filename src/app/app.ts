@@ -18,10 +18,11 @@ import { AttributeBinding } from "./attribute-binding/attribute-binding";
 import { StyleBinding } from "./style-binding/style-binding";
 import { ClassBinding } from "./class-binding/class-binding";
 import { PropertyBinding } from "./property-binding/property-binding";
+import { EventBinding } from "./event-binding/event-binding";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
