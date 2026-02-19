@@ -1,0 +1,11 @@
+<div>
+   <h1>Angular Built-in Pipes</h1>
+   <p><strong>Date: </strong> {{ today | date:'fullDate' }}</p>
+   <p><strong>Price: </strong> {{ price | currency:'USD':'symbol' }}</p>
+   <p><strong>Discount: </strong> {{ percentage | percent }}</p>
+   <p><strong>Uppercase Message: </strong> {{ message | uppercase }}</p>
+   <p><strong>Lowercase Message: </strong> {{ message | lowercase }}</p>
+   <p><strong>Short Message: </strong> {{ message | slice:0:5 }}</p>
+   <p><strong>User Data: </strong> {{ user | json }}</p>
+   <p><strong>Itmes List: </strong> {{ items | slice:0:2 | json }}</p>
+</div>
