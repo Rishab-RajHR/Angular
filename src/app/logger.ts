@@ -8,9 +8,9 @@ export class Logger {
       console.log(`[LOG]: ${message}`);
    }
    error(message: string): void{
-      console.log(`[ERROR]: $[message]`);
+      console.error(`[ERROR]: $[message]`);
    }
    warn(message: string): void{
-     console.log(`[WARN]: ${message}`);
+     console.warn(`[WARN]: ${message}`);
    }
 }

@@ -22,10 +22,11 @@ import { EventBinding } from "./event-binding/event-binding";
 import { TwoWayBinding } from "./two-way-binding/two-way-binding";
 import { BuiltInPipes } from "./built-in-pipes/built-in-pipes";
 import { CustomPipe } from "./custom-pipe/custom-pipe";
+import { InjectableService } from "./injectable-service/injectable-service";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding, TwoWayBinding, BuiltInPipes, CustomPipe],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding, TwoWayBinding, BuiltInPipes, CustomPipe, InjectableService],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
