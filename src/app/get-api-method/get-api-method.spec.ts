@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScopedService } from './scoped-service';
+import { GetApiMethod } from './get-api-method';
 
-describe('ScopedService', () => {
-  let component: ScopedService;
-  let fixture: ComponentFixture<ScopedService>;
+describe('GetApiMethod', () => {
+  let component: GetApiMethod;
+  let fixture: ComponentFixture<GetApiMethod>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ScopedService]
+      imports: [GetApiMethod]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ScopedService);
+    fixture = TestBed.createComponent(GetApiMethod);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
