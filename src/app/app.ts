@@ -25,10 +25,11 @@ import { CustomPipe } from "./custom-pipe/custom-pipe";
 import { InjectableService } from "./injectable-service/injectable-service";
 
 import { GetApiMethod } from "./get-api-method/get-api-method";
+import { PostApiService } from "./post-api-service/post-api-service";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding, TwoWayBinding, BuiltInPipes, CustomPipe, InjectableService,  GetApiMethod],
+  imports: [RouterOutlet, HostListenerExample, PreserverWhitespaceExample, EncapsulationFirst, Parent, Super, IfDirectives, SwitchCaseDirective, ForDirective, NgClassDirective, NgStyle, Interpolation, ErrorHandlingInterpolation, AttributeBinding, StyleBinding, ClassBinding, PropertyBinding, EventBinding, TwoWayBinding, BuiltInPipes, CustomPipe, InjectableService, GetApiMethod, PostApiService],
   templateUrl: './app.html',
   styleUrl: './app.css',
   encapsulation: ViewEncapsulation.None
